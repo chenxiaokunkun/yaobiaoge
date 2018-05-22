@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>药品列表</title>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/58.js"></script>
+
+</head>
+<body>
+
+
+<table border="1" width="80%"  style="text-align: center;font-size: 22px; margin:0 auto">
+    <thead>
+        <tr>
+            <th>选择</th>
+            <th>名称</th>
+            <th>数量</th>
+            <th>单位</th>
+            <th>操作</th>
+         </tr>
+    </thead>
+
+    <tbody id="toy">
+        <tr>
+            <td>
+                <input type="checkbox"  class="check"/>
+            </td>
+            <td>999感冒灵</td>
+            <td>15</td>
+            <td>盒</td>
+            <td>
+                <button class="xiugai">修改</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox"  class="check"/>
+            </td>
+            <td>急支糖浆</td>
+            <td>5</td>
+            <td>瓶</td>
+            <td>
+                <button class="xiugai">修改</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox"  class="check"/>
+            </td>
+            <td>青霉素</td>
+            <td>150</td>
+            <td>支</td>
+            <td>
+                <button class="xiugai">修改</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox"  class="check"/>
+            </td>
+            <td>葵花胃康灵</td>
+            <td>78</td>
+            <td>盒</td>
+            <td>
+                <button class="xiugai">修改</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox"  class="check"/>
+            </td>
+            <td>板蓝根</td>
+            <td>98</td>
+            <td>袋</td>
+            <td>
+                <button class="xiugai">修改</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" class="check"/>
+            </td>
+            <td>头孢拉定胶囊</td>
+            <td>55</td>
+            <td>盒</td>
+            <td>
+                <button class="xiugai">修改</button>
+            </td>
+        </tr>
+
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td>
+                <input type="checkbox" style="height: 20px;width: 20px" id="all"/>
+                全选
+            </td>
+
+            <td colspan="4">
+                <button style="width: 100%;height: 30px" id="bun">删除</button>
+            </td>
+        </tr>
+    </tfoot>
+
+</table>
+
+
+
+<table border="1px" width="40%" style="margin: 0px auto;margin-top: 20px">
+    <thead>
+        <tr>
+            <th COLSPAN="2">新增产品</th>
+        </tr>
+    </thead>
+
+    <tbody >
+        <tr>
+            <td style="width: 50%">名称</td>
+            <td>
+                <input type="text" id="goodName"/>
+            </td>
+        </tr>
+        <tr>
+            <td>数量</td>
+            <td>
+                <input type="text" id="goodNumber"/>
+            </td>
+        </tr>
+        <tr>
+            <td>单位</td>
+            <td>
+                <input type="text" id="goodUnit"/>
+            </td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td colspan="2">
+                <button style="width: 100%" id="btn">确定增加</button>
+            </td>
+        </tr>
+    </tfoot>
+
+
+</table>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
